@@ -1,0 +1,5 @@
+include: 'rules/hunter.smk'
+
+rule all:
+    input:
+        'output/G4Hunter.predictions.VR.plot.pdf'

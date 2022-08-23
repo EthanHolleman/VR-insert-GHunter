@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=2.7
+  - numpy
+  - matplotlib
+  - biopython
+  
