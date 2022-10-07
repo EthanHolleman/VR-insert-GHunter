@@ -72,6 +72,17 @@ rule plot_g_quads:
     script:'../scripts/plotGQuads.R'
 
 
+rule copy_output_to_plots_dir:
+    input:
+        'output/G4Hunter.predictions.VR.plot.pdf'
+    output:
+        'plots/G4Hunter.predictions.VR.plot.pdf'
+    shell:'''
+    cp {input} {output}
+    '''
+
+
+
 
 
 
